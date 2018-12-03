@@ -1,1 +1,11 @@
 E:\Báo Cáo CNPM\QLBH\QLBH\bin\Debug\QLBH.exe.config
+E:\New folder\QLBH\QLBH\bin\Debug\QLBH.exe.config
+E:\Báo Cáo CNPM\QLBH\QLBH\bin\Debug\QLBH.exe
+E:\Báo Cáo CNPM\QLBH\QLBH\bin\Debug\QLBH.pdb
+E:\Báo Cáo CNPM\QLBH\QLBH\obj\Debug\QLBH.csprojResolveAssemblyReference.cache
+E:\Báo Cáo CNPM\QLBH\QLBH\obj\Debug\QLBH.FormKhachHang.resources
+E:\Báo Cáo CNPM\QLBH\QLBH\obj\Debug\QLBH.FormMain.resources
+E:\Báo Cáo CNPM\QLBH\QLBH\obj\Debug\QLBH.Properties.Resources.resources
+E:\Báo Cáo CNPM\QLBH\QLBH\obj\Debug\QLBH.csproj.GenerateResource.Cache
+E:\Báo Cáo CNPM\QLBH\QLBH\obj\Debug\QLBH.exe
+E:\Báo Cáo CNPM\QLBH\QLBH\obj\Debug\QLBH.pdb
