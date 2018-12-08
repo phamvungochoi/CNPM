@@ -58,6 +58,12 @@
     <Compile Include="FormMain.Designer.cs">
       <DependentUpon>FormMain.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormNhanVien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormNhanVien.Designer.cs">
+      <DependentUpon>FormNhanVien.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="FormKhachHang.resx">
@@ -65,6 +71,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormMain.resx">
       <DependentUpon>FormMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormNhanVien.resx">
+      <DependentUpon>FormNhanVien.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -106,6 +115,39 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Close-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\google-sites-icon-large.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sex.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Actions-list-add-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\options-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Apps-system-software-update-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\trash-icon %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Save-icon %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Save-icon %281%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\trash-icon %281%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exit-icon %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Close-icon1.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

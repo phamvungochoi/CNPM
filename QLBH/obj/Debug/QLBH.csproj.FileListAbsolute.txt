@@ -9,3 +9,14 @@ E:\Báo Cáo CNPM\QLBH\QLBH\obj\Debug\QLBH.Properties.Resources.resources
 E:\Báo Cáo CNPM\QLBH\QLBH\obj\Debug\QLBH.csproj.GenerateResource.Cache
 E:\Báo Cáo CNPM\QLBH\QLBH\obj\Debug\QLBH.exe
 E:\Báo Cáo CNPM\QLBH\QLBH\obj\Debug\QLBH.pdb
+E:\banhang\CNPM\QLBH\bin\Debug\QLBH.exe.config
+E:\banhang\CNPM\QLBH\obj\Debug\QLBH.exe
+E:\banhang\CNPM\QLBH\obj\Debug\QLBH.pdb
+E:\banhang\CNPM\QLBH\bin\Debug\QLBH.exe
+E:\banhang\CNPM\QLBH\bin\Debug\QLBH.pdb
+E:\banhang\CNPM\QLBH\obj\Debug\QLBH.csprojResolveAssemblyReference.cache
+E:\banhang\CNPM\QLBH\obj\Debug\QLBH.FormKhachHang.resources
+E:\banhang\CNPM\QLBH\obj\Debug\QLBH.FormMain.resources
+E:\banhang\CNPM\QLBH\obj\Debug\QLBH.Properties.Resources.resources
+E:\banhang\CNPM\QLBH\obj\Debug\QLBH.csproj.GenerateResource.Cache
+E:\banhang\CNPM\QLBH\obj\Debug\QLBH.FormNhanVien.resources
