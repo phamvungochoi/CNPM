@@ -103,6 +103,16 @@ namespace QLBH.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Close_icon__1_ {
+            get {
+                object obj = ResourceManager.GetObject("Close-icon (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Close_icon1 {
             get {
                 object obj = ResourceManager.GetObject("Close-icon1", resourceCulture);
@@ -123,6 +133,16 @@ namespace QLBH.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap delete_icon__1_ {
+            get {
+                object obj = ResourceManager.GetObject("delete-icon (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap exit_icon__1_ {
             get {
                 object obj = ResourceManager.GetObject("exit-icon (1)", resourceCulture);
@@ -136,6 +156,26 @@ namespace QLBH.Properties {
         internal static System.Drawing.Bitmap google_sites_icon_large {
             get {
                 object obj = ResourceManager.GetObject("google-sites-icon-large", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap invoice_icon {
+            get {
+                object obj = ResourceManager.GetObject("invoice-icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap invoice_icon__1_ {
+            get {
+                object obj = ResourceManager.GetObject("invoice-icon (1)", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -196,6 +236,16 @@ namespace QLBH.Properties {
         internal static System.Drawing.Bitmap Save_icon__1_1 {
             get {
                 object obj = ResourceManager.GetObject("Save-icon (1)1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Search_icon__1_ {
+            get {
+                object obj = ResourceManager.GetObject("Search-icon (1)", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

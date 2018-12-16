@@ -14,13 +14,20 @@ namespace QLBH
     {
         public FormMain()
         {
-            Thread t = new Thread(new ThreadStart(Login));
-            t.Start();
+            //Thread t = new Thread(new ThreadStart(Login));
+            //t.Start();
             InitializeComponent();
         }
-        public void Login()
+        //public void Login()
+        //{
+        //    Application.Run(new FormLogin());
+        //}
+
+        private void button4_Click(object sender, EventArgs e)
         {
-            Application.Run(new FormLogin());
+            var frm = new FormNhanVien();
+            frm.Show();
+
         }
     }
 }
