@@ -60,9 +60,12 @@
     <Compile Include="HoaDon.cs">
       <DependentUpon>QLBH.tt</DependentUpon>
     </Compile>
+    <Compile Include="HoaDonDAL.cs" />
     <Compile Include="KhachHang.cs">
       <DependentUpon>QLBH.tt</DependentUpon>
     </Compile>
+    <Compile Include="KhachHangDAL.cs" />
+    <Compile Include="KhoDAL.cs" />
     <Compile Include="Login.cs">
       <DependentUpon>QLBH.tt</DependentUpon>
     </Compile>
@@ -86,12 +89,6 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>QLBH.edmx</DependentUpon>
     </Compile>
-    <Compile Include="sp_helpdiagramdefinition_Result.cs">
-      <DependentUpon>QLBH.tt</DependentUpon>
-    </Compile>
-    <Compile Include="sp_helpdiagrams_Result.cs">
-      <DependentUpon>QLBH.tt</DependentUpon>
-    </Compile>
     <Compile Include="sysdiagram.cs">
       <DependentUpon>QLBH.tt</DependentUpon>
     </Compile>
@@ -108,6 +105,15 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DTO\DTO.csproj">
+      <Project>{f4a9044d-b706-4ad6-a795-1833dece599c}</Project>
+      <Name>DTO</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
     <Content Include="QLBH.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <DependentUpon>QLBH.edmx</DependentUpon>
@@ -118,15 +124,6 @@
       <DependentUpon>QLBH.edmx</DependentUpon>
       <LastGenOutput>QLBH.cs</LastGenOutput>
     </Content>
-  </ItemGroup>
-  <ItemGroup>
-    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\DTO\DTO.csproj">
-      <Project>{f4a9044d-b706-4ad6-a795-1833dece599c}</Project>
-      <Name>DTO</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

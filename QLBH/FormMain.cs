@@ -14,20 +14,38 @@ namespace QLBH
     {
         public FormMain()
         {
-            //Thread t = new Thread(new ThreadStart(Login));
-            //t.Start();
             InitializeComponent();
         }
-        //public void Login()
-        //{
-        //    Application.Run(new FormLogin());
-        //}
 
         private void button4_Click(object sender, EventArgs e)
         {
             var frm = new FormNhanVien();
             frm.Show();
 
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            var frm = new FormKhachHang();
+            frm.Show();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            var frm = new FormKho();
+            frm.Show();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            var frm = new FormBanHang();
+            frm.Show();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            var frm = new FormHoaDon();
+            frm.Show();
         }
     }
 }

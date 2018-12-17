@@ -10,6 +10,7 @@ namespace DTO
     {
         public string MaNV { get; set; }
         public string HoTen { get; set; }
+        public string MaCV { get; set; }
         public DateTime NgaySinh { get; set; }
         public string GioiTinh { get; set; }
         public string CMND { get; set; }

@@ -30,8 +30,8 @@
         {
             this.btnThoat = new System.Windows.Forms.Button();
             this.btnDangnhap = new System.Windows.Forms.Button();
-            this.txtMatkhau = new System.Windows.Forms.TextBox();
-            this.txtTaikhoan = new System.Windows.Forms.TextBox();
+            this.txtMatKhau = new System.Windows.Forms.TextBox();
+            this.txtTaiKhoan = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
@@ -46,6 +46,7 @@
             this.btnThoat.TabIndex = 13;
             this.btnThoat.Text = "Thoát";
             this.btnThoat.UseVisualStyleBackColor = true;
+            this.btnThoat.Click += new System.EventHandler(this.btnThoat_Click);
             // 
             // btnDangnhap
             // 
@@ -56,23 +57,24 @@
             this.btnDangnhap.TabIndex = 12;
             this.btnDangnhap.Text = "Đăng Nhập";
             this.btnDangnhap.UseVisualStyleBackColor = true;
+            this.btnDangnhap.Click += new System.EventHandler(this.btnDangnhap_Click);
             // 
-            // txtMatkhau
+            // txtMatKhau
             // 
-            this.txtMatkhau.Location = new System.Drawing.Point(102, 159);
-            this.txtMatkhau.Margin = new System.Windows.Forms.Padding(2);
-            this.txtMatkhau.Name = "txtMatkhau";
-            this.txtMatkhau.Size = new System.Drawing.Size(150, 20);
-            this.txtMatkhau.TabIndex = 11;
-            this.txtMatkhau.UseSystemPasswordChar = true;
+            this.txtMatKhau.Location = new System.Drawing.Point(102, 159);
+            this.txtMatKhau.Margin = new System.Windows.Forms.Padding(2);
+            this.txtMatKhau.Name = "txtMatKhau";
+            this.txtMatKhau.Size = new System.Drawing.Size(150, 20);
+            this.txtMatKhau.TabIndex = 11;
+            this.txtMatKhau.UseSystemPasswordChar = true;
             // 
-            // txtTaikhoan
+            // txtTaiKhoan
             // 
-            this.txtTaikhoan.Location = new System.Drawing.Point(102, 118);
-            this.txtTaikhoan.Margin = new System.Windows.Forms.Padding(2);
-            this.txtTaikhoan.Name = "txtTaikhoan";
-            this.txtTaikhoan.Size = new System.Drawing.Size(150, 20);
-            this.txtTaikhoan.TabIndex = 10;
+            this.txtTaiKhoan.Location = new System.Drawing.Point(102, 118);
+            this.txtTaiKhoan.Margin = new System.Windows.Forms.Padding(2);
+            this.txtTaiKhoan.Name = "txtTaiKhoan";
+            this.txtTaiKhoan.Size = new System.Drawing.Size(150, 20);
+            this.txtTaiKhoan.TabIndex = 10;
             // 
             // label3
             // 
@@ -114,13 +116,14 @@
             this.ClientSize = new System.Drawing.Size(347, 303);
             this.Controls.Add(this.btnThoat);
             this.Controls.Add(this.btnDangnhap);
-            this.Controls.Add(this.txtMatkhau);
-            this.Controls.Add(this.txtTaikhoan);
+            this.Controls.Add(this.txtMatKhau);
+            this.Controls.Add(this.txtTaiKhoan);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "FormLogin";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FormLogin";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -131,8 +134,8 @@
 
         private System.Windows.Forms.Button btnThoat;
         private System.Windows.Forms.Button btnDangnhap;
-        private System.Windows.Forms.TextBox txtMatkhau;
-        private System.Windows.Forms.TextBox txtTaikhoan;
+        private System.Windows.Forms.TextBox txtMatKhau;
+        private System.Windows.Forms.TextBox txtTaiKhoan;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;

@@ -8,10 +8,10 @@ namespace DataAccessLayer
 {
     public class NhanVienDAL
     {
-        private readonly QLBHEntities dbContext;
+        private readonly QLBHEntities1 dbContext;
         public NhanVienDAL()
         {
-            dbContext = new QLBHEntities();
+            dbContext = new QLBHEntities1();
         }
         public List<NhanVien> LayDanhSach()
         {
@@ -39,6 +39,11 @@ namespace DataAccessLayer
                 item.HoTen = nhanvienSua.HoTen;
                 item.NgaySinh = nhanvienSua.NgaySinh;
                 item.GioiTinh = nhanvienSua.GioiTinh;
+                item.CMND = nhanvienSua.CMND;
+                item.DiaChi = nhanvienSua.DiaChi;
+                item.MaCV = nhanvienSua.MaCV;
+                item.QueQuan = nhanvienSua.QueQuan;
+                item.SDT = nhanvienSua.SDT;
                 dbContext.SaveChanges();
                 return true;
             }

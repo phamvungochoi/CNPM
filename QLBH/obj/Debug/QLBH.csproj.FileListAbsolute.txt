@@ -1,53 +1,6 @@
-E:\Báo Cáo CNPM\QLBH\QLBH\bin\Debug\QLBH.exe.config
-E:\New folder\QLBH\QLBH\bin\Debug\QLBH.exe.config
-E:\Báo Cáo CNPM\QLBH\QLBH\bin\Debug\QLBH.exe
-E:\Báo Cáo CNPM\QLBH\QLBH\bin\Debug\QLBH.pdb
-E:\Báo Cáo CNPM\QLBH\QLBH\obj\Debug\QLBH.csprojResolveAssemblyReference.cache
-E:\Báo Cáo CNPM\QLBH\QLBH\obj\Debug\QLBH.FormKhachHang.resources
-E:\Báo Cáo CNPM\QLBH\QLBH\obj\Debug\QLBH.FormMain.resources
-E:\Báo Cáo CNPM\QLBH\QLBH\obj\Debug\QLBH.Properties.Resources.resources
-E:\Báo Cáo CNPM\QLBH\QLBH\obj\Debug\QLBH.csproj.GenerateResource.Cache
-E:\Báo Cáo CNPM\QLBH\QLBH\obj\Debug\QLBH.exe
-E:\Báo Cáo CNPM\QLBH\QLBH\obj\Debug\QLBH.pdb
-<<<<<<< HEAD
-E:\banhang\CNPM\QLBH\bin\Debug\QLBH.exe.config
-E:\banhang\CNPM\QLBH\obj\Debug\QLBH.exe
-E:\banhang\CNPM\QLBH\obj\Debug\QLBH.pdb
-E:\banhang\CNPM\QLBH\bin\Debug\QLBH.exe
-E:\banhang\CNPM\QLBH\bin\Debug\QLBH.pdb
-E:\banhang\CNPM\QLBH\obj\Debug\QLBH.csprojResolveAssemblyReference.cache
-E:\banhang\CNPM\QLBH\obj\Debug\QLBH.FormKhachHang.resources
-E:\banhang\CNPM\QLBH\obj\Debug\QLBH.FormMain.resources
-E:\banhang\CNPM\QLBH\obj\Debug\QLBH.Properties.Resources.resources
-E:\banhang\CNPM\QLBH\obj\Debug\QLBH.csproj.GenerateResource.Cache
-E:\banhang\CNPM\QLBH\obj\Debug\QLBH.FormNhanVien.resources
-=======
-C:\QLBH\CNPM\QLBH\bin\Debug\QLBH.exe.config
-C:\QLBH\CNPM\QLBH\obj\Debug\QLBH.exe
-C:\QLBH\CNPM\QLBH\obj\Debug\QLBH.pdb
-C:\QLBH\CNPM\QLBH\bin\Debug\QLBH.exe
-C:\QLBH\CNPM\QLBH\bin\Debug\QLBH.pdb
-C:\QLBH\CNPM\QLBH\obj\Debug\QLBH.csprojResolveAssemblyReference.cache
-C:\QLBH\CNPM\QLBH\obj\Debug\QLBH.FormKhachHang.resources
-C:\QLBH\CNPM\QLBH\obj\Debug\QLBH.FormMain.resources
-C:\QLBH\CNPM\QLBH\obj\Debug\QLBH.Properties.Resources.resources
-C:\QLBH\CNPM\QLBH\obj\Debug\QLBH.csproj.GenerateResource.Cache
-C:\QLBH\CNPM\QLBH\obj\Debug\QLBH.FormLogin.resources
->>>>>>> 836a62fedd36debf9b59078f361feb9fa9adcdd3
 E:\Báo Cáo CNPM\CNPM\QLBH\bin\Debug\QLBH.exe.config
-E:\Báo Cáo CNPM\CNPM\QLBH\obj\Debug\QLBH.exe
-E:\Báo Cáo CNPM\CNPM\QLBH\obj\Debug\QLBH.pdb
 E:\Báo Cáo CNPM\CNPM\QLBH\bin\Debug\QLBH.exe
 E:\Báo Cáo CNPM\CNPM\QLBH\bin\Debug\QLBH.pdb
-E:\Báo Cáo CNPM\CNPM\QLBH\obj\Debug\QLBH.csprojResolveAssemblyReference.cache
-E:\Báo Cáo CNPM\CNPM\QLBH\obj\Debug\QLBH.FormHoaDon.resources
-E:\Báo Cáo CNPM\CNPM\QLBH\obj\Debug\QLBH.FormKhachHang.resources
-E:\Báo Cáo CNPM\CNPM\QLBH\obj\Debug\QLBH.FormLogin.resources
-E:\Báo Cáo CNPM\CNPM\QLBH\obj\Debug\QLBH.FormMain.resources
-E:\Báo Cáo CNPM\CNPM\QLBH\obj\Debug\QLBH.FormNhanVien.resources
-E:\Báo Cáo CNPM\CNPM\QLBH\obj\Debug\QLBH.Properties.Resources.resources
-E:\Báo Cáo CNPM\CNPM\QLBH\obj\Debug\QLBH.csproj.GenerateResource.Cache
-E:\Báo Cáo CNPM\CNPM\QLBH\obj\Debug\QLBH.FormBanHang.resources
 E:\Báo Cáo CNPM\CNPM\QLBH\bin\Debug\BLL.dll
 E:\Báo Cáo CNPM\CNPM\QLBH\bin\Debug\DataAccessLayer.dll
 E:\Báo Cáo CNPM\CNPM\QLBH\bin\Debug\DTO.dll
@@ -58,3 +11,15 @@ E:\Báo Cáo CNPM\CNPM\QLBH\bin\Debug\DataAccessLayer.pdb
 E:\Báo Cáo CNPM\CNPM\QLBH\bin\Debug\DTO.pdb
 E:\Báo Cáo CNPM\CNPM\QLBH\bin\Debug\EntityFramework.xml
 E:\Báo Cáo CNPM\CNPM\QLBH\bin\Debug\EntityFramework.SqlServer.xml
+E:\Báo Cáo CNPM\CNPM\QLBH\obj\Debug\QLBH.FormBanHang.resources
+E:\Báo Cáo CNPM\CNPM\QLBH\obj\Debug\QLBH.FormHoaDon.resources
+E:\Báo Cáo CNPM\CNPM\QLBH\obj\Debug\QLBH.FormKhachHang.resources
+E:\Báo Cáo CNPM\CNPM\QLBH\obj\Debug\QLBH.FormLogin.resources
+E:\Báo Cáo CNPM\CNPM\QLBH\obj\Debug\QLBH.FormMain.resources
+E:\Báo Cáo CNPM\CNPM\QLBH\obj\Debug\QLBH.FormNhanVien.resources
+E:\Báo Cáo CNPM\CNPM\QLBH\obj\Debug\QLBH.Properties.Resources.resources
+E:\Báo Cáo CNPM\CNPM\QLBH\obj\Debug\QLBH.csproj.GenerateResource.Cache
+E:\Báo Cáo CNPM\CNPM\QLBH\obj\Debug\QLBH.exe
+E:\Báo Cáo CNPM\CNPM\QLBH\obj\Debug\QLBH.pdb
+E:\Báo Cáo CNPM\CNPM\QLBH\obj\Debug\QLBH.csprojResolveAssemblyReference.cache
+E:\Báo Cáo CNPM\CNPM\QLBH\obj\Debug\QLBH.FormKho.resources

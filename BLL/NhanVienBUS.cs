@@ -29,6 +29,7 @@ namespace BLL
                     DiaChi = n.DiaChi,
                     QueQuan = n.QueQuan,
                     SDT =n.SDT,
+                    MaCV =n.MaCV,
                 }).ToList();
         }
         public bool ThemNV(NhanVien nhanvienMoi)

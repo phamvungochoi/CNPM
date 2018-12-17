@@ -53,6 +53,7 @@
             this.button3.Size = new System.Drawing.Size(108, 85);
             this.button3.TabIndex = 0;
             this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button4
             // 
@@ -76,6 +77,7 @@
             this.button5.Size = new System.Drawing.Size(108, 85);
             this.button5.TabIndex = 0;
             this.button5.UseVisualStyleBackColor = false;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // button6
             // 
@@ -87,6 +89,7 @@
             this.button6.Size = new System.Drawing.Size(108, 85);
             this.button6.TabIndex = 0;
             this.button6.UseVisualStyleBackColor = false;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // label1
             // 
@@ -148,11 +151,14 @@
             // 
             // button1
             // 
+            this.button1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button1.BackgroundImage")));
+            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.button1.Location = new System.Drawing.Point(525, 79);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(120, 85);
             this.button1.TabIndex = 5;
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // label7
             // 
@@ -183,6 +189,7 @@
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button3);
             this.Name = "FormMain";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FormMain";
             this.ResumeLayout(false);
             this.PerformLayout();
