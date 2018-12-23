@@ -60,30 +60,22 @@ namespace QLBH
 
         private void btnThem_Click(object sender, EventArgs e)
         {
-            if (Check() && CheckMaNV())
+            Enable(true);
+            if (dgvNhanVien.SelectedCells.Count > 0)
             {
-                var n = new NhanVien
-                {
-                    HoTen = txtHoTen.Text.Trim(),
-                    MaNV = txtMaNV.Text,
-                    GioiTinh = chkNu.Checked ? true : false,
-                    NgaySinh = dtpNgaySinh.Value,
-                    CMND = txtCMND.Text,
-                    QueQuan = txtQueQuan.Text,
-                    SDT = txtSDT.Text,
-                    DiaChi = txtDiaChi.Text,
-                    MaCV = txtMaCV.Text,
-                };
-                if (nvContext.ThemNV(n))
-                {
-                    MessageBox.Show((txtHoTen.Text.Trim()) + "Đã thêm");
-                    dgvNhanVien.DataSource = nvContext.LayDanhSach();
-                }
-                else
-                    MessageBox.Show((txtHoTen.Text.Trim()) + "Thêm thất bại. Vui lòng thử lại");
+                int selectedrowindex = dgvNhanVien.SelectedCells[0].RowIndex;
+                DataGridViewRow selectedRow = dgvNhanVien.Rows[selectedrowindex];
+                txtMaNV.Text = null;
+                txtHoTen.Text = null;
+                txtMaCV.Text = null;
+                dtpNgaySinh.Value = DateTime.Parse(selectedRow.Cells[3].Value.ToString());
+                chkNu.Checked = selectedRow.Cells[4].Value.ToString() == "Nữ" ? true : false;
+                txtCMND.Text = null;
+                txtQueQuan.Text = null;
+                txtSDT.Text = null;
+                txtDiaChi.Text = null;
             }
-            else
-                MessageBox.Show(message);
+
         }
 
         private void dgvNhanVien_SelectionChanged(object sender, EventArgs e)
@@ -121,7 +113,6 @@ namespace QLBH
                 var n = new NhanVien
                 {
                     HoTen = txtHoTen.Text.Trim(),
-                    MaNV = txtMaNV.Text,
                     GioiTinh = chkNu.Checked ? true : false,
                     NgaySinh = dtpNgaySinh.Value,
                     CMND = txtCMND.Text,
@@ -163,6 +154,40 @@ namespace QLBH
         private void btnThoat_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void btnLuu_Click(object sender, EventArgs e)
+        {
+            if (Check() && CheckMaNV())
+            {
+                var n = new NhanVien
+                {
+                    HoTen = txtHoTen.Text.Trim(),
+                    MaNV = txtMaNV.Text,
+                    GioiTinh = chkNu.Checked ? true : false,
+                    NgaySinh = dtpNgaySinh.Value,
+                    CMND = txtCMND.Text,
+                    QueQuan = txtQueQuan.Text,
+                    SDT = txtSDT.Text,
+                    DiaChi = txtDiaChi.Text,
+                    MaCV = txtMaCV.Text,
+                };
+                if (nvContext.ThemNV(n))
+                {
+                    MessageBox.Show((txtHoTen.Text.Trim()) + "Đã thêm");
+                    dgvNhanVien.DataSource = nvContext.LayDanhSach();
+                }
+                else
+                    MessageBox.Show((txtHoTen.Text.Trim()) + "Thêm thất bại. Vui lòng thử lại");
+            }
+            else
+                MessageBox.Show(message);
+        }
+
+        private void btnHuy_Click(object sender, EventArgs e)
+        {
+            Enable(false);
+            dgvNhanVien_SelectionChanged(sender, e);
         }
     }
 }

@@ -60,27 +60,19 @@ namespace QLBH
 
         private void btnThem_Click(object sender, EventArgs e)
         {
-            if (Check() && CheckMaTV())
+            Enable(true);
+            if (dgvKhachHang.SelectedCells.Count > 0)
             {
-                var n = new KhachHang
-                {
-                    HoTen = txtHoTen.Text.Trim(),
-                    MaTV = txtMaTV.Text,
-                    GioiTinh = chkNu.Checked ? true : false,
-                    DienThoai = txtDienThoai.Text,
-                    DiaChi = txtDiaChi.Text,
-                    Email = txtEmail.Text,
-                };
-                if (khContext.ThemKH(n))
-                {
-                    MessageBox.Show((txtHoTen.Text.Trim()) + "Đã thêm");
-                    dgvKhachHang.DataSource = khContext.LayDanhSach();
-                }
-                else
-                    MessageBox.Show((txtHoTen.Text.Trim()) + "Thêm thất bại. Vui lòng thử lại");
+                int selectedrowindex = dgvKhachHang.SelectedCells[0].RowIndex;
+                DataGridViewRow selectedRow = dgvKhachHang.Rows[selectedrowindex];
+                txtMaTV.Text = null;
+                txtHoTen.Text = null;
+                chkNu.Checked = selectedRow.Cells[2].Value.ToString() == "Nữ" ? true : false;
+                txtDiaChi.Text = null;
+                txtEmail.Text = null;
+                txtDienThoai.Text = null;
             }
-            else
-                MessageBox.Show(message);
+
         }
 
         private void btnSua_Click(object sender, EventArgs e)
@@ -155,6 +147,38 @@ namespace QLBH
             }
             else
                 chkNam.Checked = true;
+        }
+
+        private void btnLuu_Click(object sender, EventArgs e)
+        {
+            if (Check() && CheckMaTV())
+            {
+                var n = new KhachHang
+                {
+                    HoTen = txtHoTen.Text.Trim(),
+                    MaTV = txtMaTV.Text.Trim(),
+                    GioiTinh = chkNu.Checked ? true : false,
+                    DienThoai = txtDienThoai.Text,
+                    DiaChi = txtDiaChi.Text,
+                    Email = txtEmail.Text,
+                };
+                if (khContext.ThemKH(n))
+                {
+                    MessageBox.Show((txtHoTen.Text.Trim()) + "Đã thêm");
+                    dgvKhachHang.DataSource = khContext.LayDanhSach();
+                    Enable(false);
+                }
+                else
+                    MessageBox.Show((txtHoTen.Text.Trim()) + "Thêm thất bại. Vui lòng thử lại");
+            }
+            else
+                MessageBox.Show(message);
+        }
+
+        private void btnHuy_Click(object sender, EventArgs e)
+        {
+            Enable(false);
+            dgvKhachHang_SelectionChanged(sender,e);
         }
     }
 }

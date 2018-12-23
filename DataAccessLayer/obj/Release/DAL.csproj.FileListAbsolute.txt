@@ -1,0 +1,12 @@
+E:\Báo Cáo CNPM\CNPM\DataAccessLayer\bin\Release\DataAccessLayer.dll.config
+E:\Báo Cáo CNPM\CNPM\DataAccessLayer\bin\Release\DataAccessLayer.dll
+E:\Báo Cáo CNPM\CNPM\DataAccessLayer\bin\Release\DataAccessLayer.pdb
+E:\Báo Cáo CNPM\CNPM\DataAccessLayer\bin\Release\DTO.dll
+E:\Báo Cáo CNPM\CNPM\DataAccessLayer\bin\Release\EntityFramework.dll
+E:\Báo Cáo CNPM\CNPM\DataAccessLayer\bin\Release\EntityFramework.SqlServer.dll
+E:\Báo Cáo CNPM\CNPM\DataAccessLayer\bin\Release\DTO.pdb
+E:\Báo Cáo CNPM\CNPM\DataAccessLayer\bin\Release\EntityFramework.xml
+E:\Báo Cáo CNPM\CNPM\DataAccessLayer\bin\Release\EntityFramework.SqlServer.xml
+E:\Báo Cáo CNPM\CNPM\DataAccessLayer\obj\Release\DAL.csprojResolveAssemblyReference.cache
+E:\Báo Cáo CNPM\CNPM\DataAccessLayer\obj\Release\DataAccessLayer.dll
+E:\Báo Cáo CNPM\CNPM\DataAccessLayer\obj\Release\DataAccessLayer.pdb

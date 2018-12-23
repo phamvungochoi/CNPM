@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL", "BLL\BLL.csproj", "{E
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DTO", "DTO\DTO.csproj", "{F4A9044D-B706-4AD6-A795-1833DECE599C}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup", "Setup\Setup.vdproj", "{713B489A-DC05-407A-9454-DF3B9B90CB58}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "SetupTest", "SetupTest\SetupTest.vdproj", "{098CF462-3E99-4498-8718-48C26622F1EC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,10 @@ Global
 		{F4A9044D-B706-4AD6-A795-1833DECE599C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F4A9044D-B706-4AD6-A795-1833DECE599C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F4A9044D-B706-4AD6-A795-1833DECE599C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{713B489A-DC05-407A-9454-DF3B9B90CB58}.Debug|Any CPU.ActiveCfg = Debug
+		{713B489A-DC05-407A-9454-DF3B9B90CB58}.Release|Any CPU.ActiveCfg = Release
+		{098CF462-3E99-4498-8718-48C26622F1EC}.Debug|Any CPU.ActiveCfg = Debug
+		{098CF462-3E99-4498-8718-48C26622F1EC}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

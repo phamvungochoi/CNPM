@@ -1,0 +1,14 @@
+E:\Báo Cáo CNPM\CNPM\BLL\bin\Release\BLL.dll.config
+E:\Báo Cáo CNPM\CNPM\BLL\bin\Release\BLL.dll
+E:\Báo Cáo CNPM\CNPM\BLL\bin\Release\BLL.pdb
+E:\Báo Cáo CNPM\CNPM\BLL\bin\Release\DataAccessLayer.dll
+E:\Báo Cáo CNPM\CNPM\BLL\bin\Release\DTO.dll
+E:\Báo Cáo CNPM\CNPM\BLL\bin\Release\EntityFramework.dll
+E:\Báo Cáo CNPM\CNPM\BLL\bin\Release\EntityFramework.SqlServer.dll
+E:\Báo Cáo CNPM\CNPM\BLL\bin\Release\DataAccessLayer.pdb
+E:\Báo Cáo CNPM\CNPM\BLL\bin\Release\DTO.pdb
+E:\Báo Cáo CNPM\CNPM\BLL\bin\Release\EntityFramework.xml
+E:\Báo Cáo CNPM\CNPM\BLL\bin\Release\EntityFramework.SqlServer.xml
+E:\Báo Cáo CNPM\CNPM\BLL\obj\Release\BLL.csprojResolveAssemblyReference.cache
+E:\Báo Cáo CNPM\CNPM\BLL\obj\Release\BLL.dll
+E:\Báo Cáo CNPM\CNPM\BLL\obj\Release\BLL.pdb
